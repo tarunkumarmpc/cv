@@ -1,0 +1,169 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Bagadi Tarun Kumar}& Email : \href{tarunkumar.btk94@gmail.com}{tarunkumar.btk9491@gmail.com}\\
+  \href{https://github.com/tarunkumarmpc}{https://github.com/tarunkumarmpc} & Mobile : 9491803164 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  
+    \resumeSubheading
+      {Indian Instituite Of Information Technology Guwahati}{Guwahati ,India}
+      {Bachelor Of Technology in Electronics and Communication Engineering ; CGPA : 6.36/10}{ 2015 --  2019}
+      
+      
+    \resumeSubheading
+      {Sri Chaitanya Junior Kalasala }{Visakhapatnam, India}
+      {Higher Secondary Education ;  Percentage  : 91.7}{ 2013 --  2015}
+       \resumeSubheading
+      {Bhashyam Public School Srikakulam }{Srikakulam, India}
+      {Secondary Education ; CGPA : 9.2/10}{ 2013}
+  \resumeSubHeadingListEnd
+
+\section{Techinical skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming Skills }
+      {C, Java, Python, Verilog, Matlab, Embedded C, Assembley}
+    \resumeSubItem{Operating System }
+      {Windows, Linux ,Ubuntu, Centos }
+    \resumeSubItem{ Software Tool }
+      {Software Tools: Matlab, Code composer studio, HFSS, NI Labview, Multism , LTspice, Cadence, Atmel Studio 7.0, Keil uvision 4}
+      \resumeSubItem{Hard Ware}
+      {ARM 7, Raspberry 3, Intel Galileo, Node mcu, Fire bird v, Fire bird vi  }
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Velocity Consensus of Multiple
+Robots}{}
+      {Major Project– Dr.Surajit Panja,IIIT Guwahati}{Aug 2018 - Nov 2018}
+      
+ {The main motive of the project is to make all the robots attain same velocity. The communication among the robots is done by LCM–Lightweight Communications and Marshalling.} \textbf{Robots used :} Fire Bird VI\\
+  \textbf{Programming language used :} Python.
+    \resumeSubheading
+      {Gibbs Phenomenon}{}
+      {Course Project – Mansoor Khan,IIIT Guwahati}{Aug 2016 - Nov 2016}
+      
+    
+ {The project was aimed at analyzing gibbs phenomen and method used to reduce gibbs phenomen using
+chebyshev filter and implement it using MATLAB.} \textbf{Software used :} MATLAB
+    \resumeSubheading
+      {Double Threshold Energy
+Detection Method for Cognitive Radios}{}
+      {Course Project –Dr.Kukil Khanikar,IIIT Guwahati}{Aug 2018 - Nov 2018}
+      
+       {The project focused on spectrum sensing techniques for cognitive radio and observed the efficiency of Double Threshold Energy Detection in coperative spectrum sensing.}
+     \textbf{Software used :} MATLAB
+  \resumeSubHeadingListEnd
+\section{Worskshop and Training }
+ \begin{itemize}
+ \item Attended Workshop on Digital Signal Processing (DSP) organized by Indian Institute of Information
+Technology Guwahati in association with EdGate.
+\item Attended Workshop on FPGA based system design organized by Indian Institute of Information
+Technology Guwahati in association with Coreel Technologies.
+\item Attended Workshop on ARM organized by Indian Institute of Information Technology Guwahati in
+association with Mapusoft Technologies.
+\end{itemize}
+
+\section{Position Of Responsbility}
+ \begin{itemize}
+ \item Core team member, YUVAAN 2017,2016,2015 annual techno-cultural festival, IIIT Guwahati.
+\item Student coordinator for ARM and FPGA  Workshop organized at IIIT Guwahati.
+
+\end{itemize}
+\section{Strength}
+\begin{itemize}
+\item \noindent Positive Attitude,Quick Learner, Hardworking,Team Working.
+\end{itemize}
+\section{INTEREST AND HOBBIES}
+\begin{itemize}
+\item \noindent Listening music,
+Lan Gaming,
+Travelling,
+Cycling.
+\end{itemize}
+
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
